@@ -18,7 +18,8 @@
 
     <!-- DB schema will be updated if needed -->
     <property name="hibernate.hbm2ddl.auto">create</property>
-
+      
+    <!-- entities-->
     <mapping class="com.test.entitiea"/>
 
   </session-factory>
